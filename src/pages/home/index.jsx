@@ -19,7 +19,7 @@ const Home = () => {
                     Software Developer
                 </h1>
             </div>
-            <Animate play duration={1.5} delay={1} start={{ transform: "translateY(550px" }} end={{ transform: "translateX(0px" }}>
+            <Animate play duration={1.5} delay={1} start={{ transform: "translateY(550px)" }} end={{ transform: "translateX(0px)" }}>
                 <div className="home_contact-me">
                     <button onClick={handleNavigateToContactPage}>Hire Me</button>
                 </div>
