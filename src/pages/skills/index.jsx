@@ -30,7 +30,6 @@ const Skills=()=>{
                                         ))
                                     }
                                 </div>
-
                             </Animate>
                         </div>
                     ))
