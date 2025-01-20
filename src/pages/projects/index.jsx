@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { GrProjects } from "react-icons/gr";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import img1 from '../../images/i1.jpg';
 import img2 from '../../images/i2.jpg';
@@ -75,7 +75,7 @@ const filterdItems = filteredvalue === 1 ? portfolioData : portfolioData.filter(
     return (
         <div>
             <section className="projects" id="projects">
-                <PageHeaderContent headerText="My Projects" icon={<BsInfoCircleFill size={40} />} />
+                <PageHeaderContent headerText="My Projects" icon={<GrProjects size={40} />} />
                 <div className="projects_content">
 
                     <ul className="projects_content_filter">
