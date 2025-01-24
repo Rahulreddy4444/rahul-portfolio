@@ -1,5 +1,5 @@
 import React from "react";
-import {BsInfoCircleFill} from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
@@ -9,10 +9,22 @@ import {MdWork} from 'react-icons/md'
 
 
 const Resume=()=>{
+    const handleDownloadResume = () => {
+        const link = document.createElement("a");
+        link.href = "/resume.pdf";
+        link.download = "Rahul_Reddy_Resume.pdf";
+        link.click();
+    };
+
     return(
         <div>
             <section className="resume" id="resume">
-            <PageHeaderContent headerText = "My Resume" icon = {<BsInfoCircleFill size={40}/>}/>
+            <PageHeaderContent headerText = "My Resume" icon = { <BsDownload
+                            size={40}
+                            style={{ cursor: "pointer" }}
+                            onClick={handleDownloadResume}
+                            title="Download Resume"
+                        />}/>
             </section>
             <div className="timeline">
             <div className="timeline_education">
