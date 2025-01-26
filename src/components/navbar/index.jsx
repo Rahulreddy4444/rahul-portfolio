@@ -3,7 +3,6 @@ import { FaBars, FaUserGraduate } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import './style.scss';
-// import { BsDisplay } from 'react-icons/bs';
 
 const data = [
     {
@@ -39,6 +38,10 @@ const Navbar = () => {
         setToggleIcon(!toggleIcon);
     };
 
+    const handleLinkClick = () => {
+        setToggleIcon(false); // Close the menu after clicking a link
+    };
+
     return (
         <div>
             <nav className="navbar">
@@ -51,7 +54,7 @@ const Navbar = () => {
                     {
                         data.map((item, key) => (
                             <li key={key} className='navbar_container_menu_item'>
-                                <Link className='navbar_container_menu_item_links' to={item.to}>
+                                <Link className='navbar_container_menu_item_links' to={item.to} onClick={handleLinkClick} >
                                     {item.label}
                                 </Link>
                             </li>

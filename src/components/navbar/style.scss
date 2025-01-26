@@ -6,6 +6,7 @@
     align-items: center;
     font-size: 1.2rem;   
     position: sticky;
+    z-index: 999;
 
     &_container{
         display: flex;
@@ -60,7 +61,7 @@
 
 @media only screen and (max-width : 768px){
     .navbar_container_menu{
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         width: 100%;
@@ -71,6 +72,7 @@
         transition: all 0.5s ease;
 
         &.active{
+            display: flex;
             background: #181818;
             left: 0px;
             opacity: 1;
@@ -87,6 +89,6 @@
         display: block;
         cursor: pointer;
         color: var(--yellow-theme-main-color);
-        padding: 20px;
+        padding-right: 20px;
     }
 }
