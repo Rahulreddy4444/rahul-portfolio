@@ -18,7 +18,7 @@ const Home = () => {
                 <h1>
                     Hello, I'm Rahul Reddy
                     <br />
-                    Software Developer
+                    Software Engineer
                 </h1>
             </div>
             <Animate play duration={1.5} delay={1} start={{ transform: "translateY(550px)" }} end={{ transform: "translateX(0px)" }}>
