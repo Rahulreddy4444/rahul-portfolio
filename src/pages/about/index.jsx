@@ -30,7 +30,7 @@ const personalDetils = [
     },
 ];
 
-const jobSummary = "Aspiring and self-driven full-stack developer with hands-on experience in building dynamic and responsive web applications using modern technologies like React.js, Node.js, and PostgreSQL. With a proven track record demonstrated through projects such as 'Quiz Wizz' and 'Hostel Mess Management,' I excel in creating scalable and secure systems. Passionate about web development and artificial intelligence, I blend creativity with technical expertise to deliver efficient solutions. Strong in problem-solving with proficiency in C++, Java, and Python, and well-versed in data structures, algorithms, and OOPS."
+const jobSummary = "Aspiring and self-driven full-stack developer with hands-on experience in building dynamic and responsive web applications using modern technologies like React.js, Node.js, and PostgreSQL. With a proven track record demonstrated through projects such as 'TEL-AGENT(Acadhelper),Quiz Wizz' and 'HEAL NOW ,' I excel in creating scalable and secure systems. Passionate about web development and artificial intelligence, I blend creativity with technical expertise to deliver efficient solutions. Strong in problem-solving with proficiency in C++, Java, and Python, and well-versed in data structures, algorithms, and OOPS."
 
 
 const About = () => {

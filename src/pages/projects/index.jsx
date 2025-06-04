@@ -29,26 +29,26 @@ const portfolioData = [
         id: 3,
         name: "TEL-AGENT ",
         image: img3,
-        link: '',
+        link: 'https://drive.google.com/file/d/1iCcJEdTUMQltkJphhpGryCOY42JmtvoU/view?usp=drive_link',
         github: 'https://github.com/haseeb-555/TEL-AGENT',
         demo: 'https://drive.google.com/file/d/1iCcJEdTUMQltkJphhpGryCOY42JmtvoU/view?usp=drive_link'
     },
-    {
-        id: 3,
-        name: "AI-bot",
-        image: img4,
-        link: '',
-        github: '',
-        demo: ''
-    },
-    {
-        id: 3,
-        name: "AI-fitness",
-        image: img5,
-        link: '',
-        github: '',
-        demo: ''
-    }
+    // {
+    //     id: 3,
+    //     name: "AI-bot",
+    //     image: img4,
+    //     link: '',
+    //     github: '',
+    //     demo: ''
+    // },
+    // {
+    //     id: 3,
+    //     name: "AI-fitness",
+    //     image: img5,
+    //     link: '',
+    //     github: '',
+    //     demo: ''
+    // }
 ];
 
 const filterData = [

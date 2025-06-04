@@ -7,10 +7,16 @@ export const data = {
             date: "2024"
         },
         {
-            title: "Creamy Olympiad Test",
+            title: "Technalytics 5.0",
             // subTitle: "",
-            description: "Secured Zonal Rank 1 in the School Creamy Olympiad Test",
-            date : "2019"
+            description: "Finalist in Technalytics 5.0 Data Analytics Competition at IIT (BHU) - Selected among 350+ teams.",
+            date : "Feb 2025"
+        },
+        {
+            title: "GOOGLE's STUDENT UPSKILLING LAUNCHPAD",
+            // subTitle: "",
+            description: "Ssuccessfully Completed GOOGLE's STUDENT UPSKILLING LAUNCHPAD",
+            date : "April 2025"
         },
     ],
 
