@@ -3,7 +3,7 @@ import { GrProjects } from "react-icons/gr";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import img1 from '../../images/i1.jpg';
 import img2 from '../../images/i2.jpg';
-import img3 from '../../images/i6.jpg';
+import img3 from '../../images/i3.jpg';
 import img4 from '../../images/i4.jpg';
 import img5 from '../../images/i5.jpg';
 import './style.scss';
@@ -19,19 +19,19 @@ const portfolioData = [
     },
     {
         id: 3,
-        name: "Note App",
+        name: "Heal Now",
         image: img2,
-        link: '',
-        github: '',
-        demo: ''
+        link: 'https://heal-now-client.vercel.app/',
+        github: 'https://github.com/Likinesh/HealNow',
+        demo: 'https://heal-now-client.vercel.app/'
     },
     {
-        id: 2,
-        name: "Design",
+        id: 3,
+        name: "TEL-AGENT ",
         image: img3,
         link: '',
-        github: '',
-        demo: ''
+        github: 'https://github.com/haseeb-555/TEL-AGENT',
+        demo: 'https://drive.google.com/file/d/1iCcJEdTUMQltkJphhpGryCOY42JmtvoU/view?usp=drive_link'
     },
     {
         id: 3,
