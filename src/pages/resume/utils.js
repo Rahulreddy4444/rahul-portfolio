@@ -15,7 +15,7 @@ export const data = {
         {
             title: "GOOGLE's STUDENT UPSKILLING LAUNCHPAD",
             // subTitle: "",
-            description: "Ssuccessfully Completed GOOGLE's STUDENT UPSKILLING LAUNCHPAD",
+            description: "Completed a multi-session program focused on coding interviews, problem solving, and soft skills.",
             date : "April 2025"
         },
     ],
