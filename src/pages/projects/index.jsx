@@ -13,7 +13,7 @@ const portfolioData = [
         id: 2,
         name: "Quiz Website",
         image: img1,
-        link: '',
+        link: 'https://quiz-wizz.onrender.com/',
         github: 'https://github.com/Rahulreddy4444/quiz-wizz',
         demo: 'https://drive.google.com/file/d/1_FqbI6LnOTfLMIL7HIKhG-CME4vka3up/view?usp=sharing'
     },
